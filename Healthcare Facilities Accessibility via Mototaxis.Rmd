@@ -51,8 +51,8 @@ library(ggpmisc)
 
 ### API Keys
 ```{r}
-GoogleAPIKey <- "AIzaSyC5kgW1mby6cPSjyPom4dR001ZLFFJhLd0"
-ors_api_key <- "5b3ce3597851110001cf624854c37c617567413bb06c2e75d2c3933f"
+GoogleAPIKey <- ""
+ors_api_key <- ""
 
 register_google(key = GoogleAPIKey)
 
@@ -1619,7 +1619,7 @@ Calculate by car, motorcycle, walking and bicycle
 #______________________ CORRECTION FACTOR ____________________________________
 
 # Google API Key (replace with your actual key)
-google_api_key <- "AIzaSyC5kgW1mby6cPSjyPom4dR001ZLFFJhLd0"
+google_api_key <- ""
 
 # Define the departure time: Monday, March 24th, 2025, 11:00 AM N'Djamena Time
 departure_time <- as.integer(as.POSIXct("2025-03-24 11:00:00", tz = "Africa/Ndjamena"))
@@ -4500,7 +4500,7 @@ ggplot(survey_results, aes(x = travel_time, y = Delta_4Visit_Model)) +
 # library(jsonlite)
 
 # Google API Key (Replace with your actual API key)
-google_api_key <- "AIzaSyC5kgW1mby6cPSjyPom4dR001ZLFFJhLd0"
+google_api_key <- ""
 
 
 library(httr2)
